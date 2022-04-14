@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+      <div class="heading">
+        Simple Calclator
+      </div>
+      <div class="calculator">
+        <div class="screen">
+          <div data-previous-operand class="prev-operand"></div>
+          <div data-current-operand class="curr-operand"></div>
+        </div>
+        <button data-clear class="btn" id="cl">AC</button>
+        <button data-delete class="btn" id="bk">&larr;</button>
+        <button data-operation class="btn" id="per">%</button>
+        <button data-operation class="btn" id="div">/</button>
+        <button data-number class="btn" id="dt">.</button>
+        <button data-number class="btn" id="7">7</button>
+        <button data-number class="btn" id="8">8</button>
+        <button data-number class="btn" id="9">9</button>
+        <button data-operation class="btn" id="mul">*</button>
+        <button data-number class="btn" id="5">5</button>
+        <button data-number class="btn" id="6">6</button>
+        <button data-number class="btn" id="4">4</button>
+        <button data-operation class="btn" id="sub">-</button>
+        <button data-number class="btn" id="1">1</button>
+        <button data-number class="btn" id="2">2</button>
+        <button data-number class="btn" id="3">3</button>
+        <button data-operation class="btn" id="add">+</button>
+        <button data-number class="btn" id="0">0</button>
+        <button data-equals class="btn" id="eq">=</button>
+      </div>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
