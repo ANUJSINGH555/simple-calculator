@@ -1,2 +1,2 @@
 # simple-calculator
-Build a simple calculator
+Built a simple calculator
